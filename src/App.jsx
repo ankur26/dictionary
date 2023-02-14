@@ -33,7 +33,7 @@ function App() {
     }
     return (
         <ChakraProvider theme={theme} >
-            <Box bgColor={darkMode ? "blackAlpha.700" : "whiteAlpha.700"} mx="auto" height={"100vh"}>
+            <Box bgColor={darkMode ? "blackAlpha.700" : "whiteAlpha.700"} mx="auto" height={"100%"}>
                 <Container maxW={"750px"}
                     px="24px"
                     py={["24px", "58px"]}

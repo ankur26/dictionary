@@ -1,6 +1,11 @@
 import { extendTheme } from "@chakra-ui/react";
 
 export const theme = extendTheme({
+        styles:{
+            global:{
+                height:"100%"
+            }
+        },
         colors: {
             blackAlpha: {
                 700: "#050505",

@@ -81,8 +81,8 @@ function MeaningComponent({ meaning, darkMode ,fontFamily}) {
                             </UnorderedList>
                         </Box>
                         {(_.has(m,"synonyms") && m.synonyms.length > 0 )  &&
-                        <Flex fontSize={"20px"} gap={"5px"} alignItems={"center"}>
-                            <Text color={"gray.700"} fontWeight={"400"}>Synonyms</Text><Text display="inline" fontWeight={"700"} color={"purple.900"}>{_.join(m.synonyms)}</Text> 
+                        <Flex fontSize={"20px"} gap={"5px"} alignItems={"center"} flexWrap={"wrap"}>
+                            <Text  color={"gray.700"} fontWeight={"400"}>Synonyms</Text><Text flex={"1 1 auto"} fontWeight={"700"} color={"purple.900"}>{_.join(m.synonyms)}</Text> 
                         </Flex>
                         }
                     </Box>
